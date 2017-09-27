@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoWebAPIWinForms", "ProtoWebAPIWinForms\ProtoWebAPIWinForms.csproj", "{EFF8A35C-BC56-4AE3-B00A-111F6DE3B809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{73ED9CA4-DCA3-4056-8FA1-248EC65D50BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF8A35C-BC56-4AE3-B00A-111F6DE3B809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF8A35C-BC56-4AE3-B00A-111F6DE3B809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF8A35C-BC56-4AE3-B00A-111F6DE3B809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF8A35C-BC56-4AE3-B00A-111F6DE3B809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ED9CA4-DCA3-4056-8FA1-248EC65D50BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ED9CA4-DCA3-4056-8FA1-248EC65D50BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ED9CA4-DCA3-4056-8FA1-248EC65D50BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ED9CA4-DCA3-4056-8FA1-248EC65D50BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

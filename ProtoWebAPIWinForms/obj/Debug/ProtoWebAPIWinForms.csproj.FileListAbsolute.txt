@@ -1,0 +1,15 @@
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\ProtoWebAPIWinForms.exe.config
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\ProtoWebAPIWinForms.exe
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\ProtoWebAPIWinForms.pdb
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.csprojResolveAssemblyReference.cache
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.Properties.Resources.resources
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.csproj.GenerateResource.Cache
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.exe
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.pdb
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.Form1.resources
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\ProtoWebAPIWinForms.exe.manifest
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\ProtoWebAPIWinForms.application
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.exe.manifest
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.application
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\Newtonsoft.Json.dll
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\Newtonsoft.Json.xml
