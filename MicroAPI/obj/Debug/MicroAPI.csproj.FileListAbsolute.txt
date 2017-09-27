@@ -1,0 +1,7 @@
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\obj\Debug\MicroAPI.csprojResolveAssemblyReference.cache
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\bin\Debug\MicroAPI.dll
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\bin\Debug\MicroAPI.pdb
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\bin\Debug\Newtonsoft.Json.dll
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\bin\Debug\Newtonsoft.Json.xml
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\obj\Debug\MicroAPI.dll
+c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\MicroAPI\obj\Debug\MicroAPI.pdb

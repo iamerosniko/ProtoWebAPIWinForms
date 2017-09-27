@@ -13,3 +13,5 @@ c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\Proto
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\obj\Debug\ProtoWebAPIWinForms.application
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\Newtonsoft.Json.dll
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alverer\Documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\MicroAPI.dll
+C:\Users\alverer\Documents\visual studio 2013\Projects\ProtoWebAPIWinForms\ProtoWebAPIWinForms\bin\Debug\MicroAPI.pdb

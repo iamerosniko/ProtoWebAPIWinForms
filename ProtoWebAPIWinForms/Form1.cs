@@ -4,19 +4,31 @@ using System.Net.Http;
 using System.Text;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using MicroAPI;
 namespace ProtoWebAPIWinForms
 {
     public partial class Form1 : Form
     {
-        string URI = "http://localhost:64502/api/product";
+        //string URI = "http://localhost:64502/api/Product";
+        string URI = "http://skillsetazureuat.azurewebsites.net/api/associates";
+        MainController API;
         public Form1()
         {
             InitializeComponent();
+            API = new MainController(URI);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private async void Form1_Load(object sender, EventArgs e)
         {
-            GetAllProducts();
+            
+            var b = JsonConvert.DeserializeObject<SS_Associates[]>(await API.get()).ToList();
+            //filter
+            
+            
+            //MessageBox.Show(c.ToString());
+
+            dataGridView1.DataSource = b.ToList();
+            //GetAllProducts();
         }
 
         #region Methods
@@ -91,6 +103,34 @@ namespace ProtoWebAPIWinForms
             public string Name { get; set; }
             public string Category { get; set; }
             public decimal Price { get; set; }
+        }
+        public class SS_Associates
+        {
+            public int AssociateID { get; set; }
+            public string UserName { get; set; }
+            public string PhoneNumber { get; set; }
+            public bool VPN { get; set; }
+            public short DepartmentID { get; set; }
+            public int LocationID { get; set; }
+            public System.DateTime UpdatedOn { get; set; }
+            public bool IsActive { get; set; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            getOne(textBox1.Text);
+        }
+
+        private async void getOne(string id)
+        {
+            var a =(id==null || id=="")?new SS_Associates(): JsonConvert.DeserializeObject<SS_Associates>(await API.get(id));
+            var b = JsonConvert.DeserializeObject<SS_Associates[]>(await API.get()).ToList();
+            //filter
+            var c = b.Where(x => x.AssociateID == a.AssociateID);
+
+            //MessageBox.Show(c.ToString());
+
+            dataGridView1.DataSource = (id == null || id == "") ? b : c.ToList();
         }
     }
 }

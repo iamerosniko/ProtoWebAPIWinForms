@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,30 +11,78 @@ namespace MicroAPI
     public class MainController
     {
         private string _URI = "";
-        public MainController(string URI,string Controller)
+        private string _Msg = "";
+        public MainController(string URI)
         {
-            this._URI = URI+"/"+Controller;
+            this._URI = URI;
         }
+        //working
+        public async Task<string> get()
+        {
+            using (var client = new HttpClient())
+            {
+                using (var response = await client.GetAsync(this._URI))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var productJsonString = await response.Content.ReadAsStringAsync();
+                        return productJsonString;
+                    }
+                }
+            }
+            return "";
+        }
+        //working
+        public async Task<string> get(string id)
+        {
+            this._Msg = "";
+            using (var client = new HttpClient())
+            {
+                using (var response = await client.GetAsync(this._URI+"/"+id))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var productJsonString = await response.Content.ReadAsStringAsync();
+                        this._Msg = productJsonString;
+                    }
+                }
+            }
+            return _Msg;
+        }
+        public async Task<string> post(string content)
+        {
+            this._Msg = "";
+            using (var client = new HttpClient())
+            {
+                var body = new StringContent(content, Encoding.UTF8, "application/json");
+                var apiResult = await client.PostAsync(this._URI, body);
+                this._Msg = apiResult.ToString();
+            }
 
-        public string get()
-        {
-            return "";
+            return this._Msg;
+
         }
-        public string get(string id)
+        public async Task<string> put(string content, string id)
         {
-            return "";
+            this._Msg = "";
+            using (var client = new HttpClient())
+            {
+                var body = new StringContent(content, Encoding.UTF8, "application/json");
+                var apiResult = await client.PutAsync(String.Format("{0}/{1}", this._URI, id), body);
+                this._Msg = apiResult.ToString();
+            }
+
+            return this._Msg;
         }
-        public string post(string content)
+        public async Task<string> delete(string id)
         {
-            return "";
-        }
-        public string put(string content,string id)
-        {
-            return "";
-        }
-        public string delete(string id)
-        {
-            return "";
+            this._Msg = "";
+            using (var client = new HttpClient())
+            {
+                var apiResult = await client.DeleteAsync(String.Format("{0}/{1}", this._URI, id));
+                this._Msg = apiResult.ToString();
+            }
+            return this._Msg;
         }
     }
 }
