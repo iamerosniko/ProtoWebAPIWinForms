@@ -46,6 +46,7 @@
             this.btnDeleteProduct.TabIndex = 9;
             this.btnDeleteProduct.Text = "Delete Product";
             this.btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.Click += new System.EventHandler(this.btnDeleteProduct_Click);
             // 
             // btnUpdateProduct
             // 
@@ -55,6 +56,7 @@
             this.btnUpdateProduct.TabIndex = 8;
             this.btnUpdateProduct.Text = "Update Product";
             this.btnUpdateProduct.UseVisualStyleBackColor = true;
+            this.btnUpdateProduct.Click += new System.EventHandler(this.btnUpdateProduct_Click);
             // 
             // btnInsertProduct
             // 
@@ -64,6 +66,7 @@
             this.btnInsertProduct.TabIndex = 7;
             this.btnInsertProduct.Text = "Insert Product";
             this.btnInsertProduct.UseVisualStyleBackColor = true;
+            this.btnInsertProduct.Click += new System.EventHandler(this.btnInsertProduct_Click);
             // 
             // dataGridView1
             // 
@@ -84,6 +87,7 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(265, 319);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);

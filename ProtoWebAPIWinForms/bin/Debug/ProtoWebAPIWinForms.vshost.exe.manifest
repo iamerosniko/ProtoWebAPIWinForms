@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProtoWebAPIWinForms.exe" size="19880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProtoWebAPIWinForms.exe" size="22440">
       <assemblyIdentity name="ProtoWebAPIWinForms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fzHvkRDYKcXNybdjyvyxqIp1JEX8rRhHIsCONpFSqEI=</dsig:DigestValue>
+        <dsig:DigestValue>WZgGUr7mucktvqTi0C3iCR5TXU0RoqTVOJRoF5UbZWA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
