@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MicroAPI
 {
@@ -49,17 +50,16 @@ namespace MicroAPI
             }
             return _Msg;
         }
+        //working
         public async Task<string> post(string content)
         {
-            this._Msg = "";
+            HttpResponseMessage httpResponseMessage = new HttpResponseMessage();
             using (var client = new HttpClient())
             {
                 var body = new StringContent(content, Encoding.UTF8, "application/json");
-                var apiResult = await client.PostAsync(this._URI, body);
-                this._Msg = apiResult.ToString();
+                httpResponseMessage = await client.PostAsync(this._URI, body);
             }
-
-            return this._Msg;
+            return (int)httpResponseMessage.StatusCode==200 ? content : "";
 
         }
         public async Task<string> put(string content, string id)

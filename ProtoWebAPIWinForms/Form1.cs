@@ -166,7 +166,7 @@ namespace ProtoWebAPIWinForms
         private async void post(string content)
         {
             var postData = await API.post(content);
-            MessageBox.Show(postData);
+            MessageBox.Show(postData.ToString());
             getAll();
         }
 
