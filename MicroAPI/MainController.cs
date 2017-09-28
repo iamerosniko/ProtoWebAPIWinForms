@@ -31,7 +31,7 @@ namespace MicroAPI
                     }
                 }
             }
-            return "";
+            return null;
         }
         //working
         public async Task<string> get(string id)
@@ -48,41 +48,41 @@ namespace MicroAPI
                     }
                 }
             }
-            return _Msg;
+            return null;
         }
         //working
         public async Task<string> post(string content)
         {
-            HttpResponseMessage httpResponseMessage = new HttpResponseMessage();
+            string resultContent;
             using (var client = new HttpClient())
             {
                 var body = new StringContent(content, Encoding.UTF8, "application/json");
-                httpResponseMessage = await client.PostAsync(this._URI, body);
+                var result = await client.PostAsync(this._URI, body);
+                resultContent = await result.Content.ReadAsStringAsync();
             }
-            return (int)httpResponseMessage.StatusCode==200 ? content : "";
+            return resultContent;
 
         }
         public async Task<string> put(string content, string id)
         {
-            this._Msg = "";
+            string resultContent;
             using (var client = new HttpClient())
             {
                 var body = new StringContent(content, Encoding.UTF8, "application/json");
-                var apiResult = await client.PutAsync(String.Format("{0}/{1}", this._URI, id), body);
-                this._Msg = apiResult.ToString();
+                var result = await client.PutAsync(String.Format("{0}/{1}", this._URI, id), body);
+                resultContent = await result.Content.ReadAsStringAsync();
             }
-
-            return this._Msg;
+            return resultContent;
         }
         public async Task<string> delete(string id)
         {
-            this._Msg = "";
+            string resultContent;
             using (var client = new HttpClient())
             {
-                var apiResult = await client.DeleteAsync(String.Format("{0}/{1}", this._URI, id));
-                this._Msg = apiResult.ToString();
+                var result = await client.DeleteAsync(String.Format("{0}/{1}", this._URI, id));
+                resultContent = await result.Content.ReadAsStringAsync();
             }
-            return this._Msg;
+            return resultContent;
         }
     }
 }

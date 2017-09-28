@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using MicroAPI;
 namespace ProtoWebAPIWinForms
 {
     static class Program
@@ -14,6 +15,7 @@ namespace ProtoWebAPIWinForms
         [STAThread]
         static void Main()
         {
+            IAPI_CRUD ac;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
