@@ -15,7 +15,6 @@ namespace ProtoWebAPIWinForms
         [STAThread]
         static void Main()
         {
-            IAPI_CRUD ac;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

@@ -1,4 +1,3 @@
-c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\API\bin\API.dll.config
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\API\bin\API.dll
 c:\users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\API\bin\API.pdb

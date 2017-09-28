@@ -1,0 +1,16 @@
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\PWAPI.dll.config
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\PWAPI.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\PWAPI.pdb
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\MicroAPI.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\Newtonsoft.Json.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Web.Http.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\MicroAPI.pdb
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\Newtonsoft.Json.xml
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Web.Http.xml
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\obj\Debug\PWAPI.csprojResolveAssemblyReference.cache
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\obj\Debug\PWAPI.dll
+C:\Users\alverer\documents\visual studio 2013\Projects\ProtoWebAPIWinForms\PWAPI\obj\Debug\PWAPI.pdb
