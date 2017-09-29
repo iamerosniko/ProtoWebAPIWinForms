@@ -38,8 +38,11 @@ namespace PWAPI.Controllers
         {
             if (bodyTemplate.ID.Trim().Equals(""))
             {
-                var a = Task.Run(() => mc.get()).Result;
-                result = a;
+                result = Task.Run(() => mc.get()).Result;
+            }
+            else
+            {
+                result = Task.Run(() => mc.get(bodyTemplate.ID)).Result;
             }
         }
     }

@@ -38,7 +38,6 @@ namespace MicroAPI
         //working
         public async Task<string> get(string id)
         {
-            this._Msg = "";
             using (var client = new HttpClient())
             {
                 using (var response = await client.GetAsync(this._URI+"/"+id))
@@ -46,7 +45,7 @@ namespace MicroAPI
                     if (response.IsSuccessStatusCode)
                     {
                         var productJsonString = await response.Content.ReadAsStringAsync();
-                        this._Msg = productJsonString;
+                        return productJsonString;
                     }
                 }
             }
